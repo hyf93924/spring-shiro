@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+#
+#jpa:
+#  show-sql: true
+#  hibernate:
+#    ddl-auto: update
+
+mybatis:
+  mapper-locations: classpath:mybatis/tables/*.xml
+  type-aliases-package: com.yif.entity
+#  config-location: classpath:mybatis/mybatis-config.xml
+
+#http:
+#  encoding:
+#    charset: utf-8
+#    enabled: true
